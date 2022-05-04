@@ -390,3 +390,17 @@ fieldset {
 a{
 	text-decoration: none !important;
 }
+
+
+/*
+
+          TRANSICIONES
+
+*/
+/*suaviza la seleccion de pelicula*/
+#cards .cardtransition {
+    transition-property: all;
+    transition-duration: 1.25s;
+    transition-timing-function: ease; 
+    transition-delay: initial; 
+}
