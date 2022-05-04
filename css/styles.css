@@ -404,3 +404,10 @@ a{
     transition-timing-function: ease; 
     transition-delay: initial; 
 }
+
+#login {
+	transition:
+  background ease 1.25s, 
+  border-radius ease-in 3s, 
+  width ease 0.25s;
+}
